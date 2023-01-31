@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: skiapp
-        image: jenkins-oscar/skiapp:0.0.99
+        image: sharepointoscar/skiapp:V1
         imagePullPolicy: Always
         ports:
         - name: http
